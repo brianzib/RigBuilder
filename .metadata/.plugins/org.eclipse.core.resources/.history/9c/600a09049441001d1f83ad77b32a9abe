@@ -1,0 +1,42 @@
+
+public class Nvidia extends GPU {
+
+	String szDieName ; 
+
+	int CudaCount;
+	int TensorCount;
+	int RTCoreCount;
+	int DirectXSupp; 
+
+	double DLSS;
+
+
+	void reset ()
+	{
+		szDieName = ""; 
+		CudaCount = 0;
+		TensorCount = 0;
+		RTCoreCount = 0;
+		DirectXSupp = 0 ;
+		DLSS = 0 ;
+
+		return;
+	}
+
+
+	Nvidia()
+	{
+
+		super.reset();
+		reset();
+		return;
+	}
+	
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

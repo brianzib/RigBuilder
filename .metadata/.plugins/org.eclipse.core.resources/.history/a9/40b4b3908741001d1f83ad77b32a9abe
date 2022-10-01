@@ -1,0 +1,152 @@
+
+public class CPU {
+
+	int CoreCount;
+	int ThreadCount;
+	int MaxMemory;
+	int DirectXSupp;
+	int OpenGLSupp;
+
+	String Socket;
+	String MaxMemorySpeed;
+	String MemoryType;
+	String Graphics;
+
+	double BaseGraphicsFreq;
+	double DynamicGraphicsFreq;
+	double BaseFreq;
+	double BoostFreq;
+
+	boolean ECCSupport;
+	boolean VT;
+
+	CPU ()
+	{
+		// super.reset()
+		reset();
+		return;
+	}
+
+
+	void reset()
+	{
+		CoreCount = 0;
+		ThreadCount =0;
+		MaxMemory = 0;
+		DirectXSupp = 0;
+		OpenGLSupp = 0;
+
+		Socket = "";
+		MaxMemorySpeed = "";
+		MemoryType = "";
+		Graphics = "";
+
+		BaseGraphicsFreq = 0.0;
+		DynamicGraphicsFreq = 0.0;
+		BaseFreq = 0.0;
+		BoostFreq = 0.0;
+
+		ECCSupport = false;
+		VT = false;
+
+		return;
+	}
+
+	void setCoreCount(int i)
+	{
+		this.CoreCount = i;
+		return;
+	}
+
+	void setThreadCount(int i)
+	{
+		this.ThreadCount = i;
+		return;
+	}
+
+	void setMaxMemory(int i)
+	{
+		this.MaxMemory = i;
+		return;
+	}
+
+	void setDirectX(int i)
+	{
+		this.DirectXSupp = i;
+		return;
+	}
+
+	void setOenGL(int i)
+	{
+		this.OpenGLSupp = i;
+		return;
+	}
+
+	void setSocket(String sz)
+	{
+		this.Socket = sz;
+		return;
+	}
+
+	void setMemorySpeed(String sz)
+	{
+		this.MaxMemorySpeed = sz;
+		return;
+	}
+
+	void setMemoryType(String sz)
+	{
+		this.MemoryType = sz;
+		return;
+	}
+
+	void setGraphics(String sz)
+	{
+		this.Graphics = sz;
+		return;
+	}
+
+	void setGtaphicsFreq(double d)
+	{
+		this.BaseGraphicsFreq = d;
+		return;
+	}
+
+	void setDynamicGtaphicsFreq(double d)
+	{
+		this.DynamicGraphicsFreq = d;
+		return;
+	}
+
+	void setBaseFreq(double d)
+	{
+		this.BaseFreq = d;
+		return;
+	}
+
+	void setBoostFreq(double d)
+	{
+		this.BoostFreq= d;
+		return;
+	}
+
+	void setECCSupport(boolean b)
+	{
+		this.ECCSupport = b;
+		return;
+	}
+
+	void setVTSupport(boolean b)
+	{
+		this.VT = b;
+		return;
+	}
+
+
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

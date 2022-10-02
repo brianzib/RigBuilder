@@ -19,7 +19,7 @@ public class GPU {
 	
 	void reset ()
 	{
-
+	
 		MemoryType  = "";// Parent
 		PowerConnectors = ""; // Parent
 
@@ -37,7 +37,21 @@ public class GPU {
 		return;
 	}
 	
+	GPU ()
+	{
+		reset();
+		return;
+	}
+void setMemoryType()
 	
+	{
+
+	}
+
+		
+
+
+
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

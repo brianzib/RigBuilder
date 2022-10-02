@@ -40,7 +40,7 @@ public class Components {
 
 	public void setOverclock (String overclock)
 	{
-		 if (overclock == "no" || overclock == "No")
+		if (overclock == "no" || overclock == "No")
 		{
 			this.bOverclock = true;
 		}

@@ -1,0 +1,74 @@
+
+public class CPU {
+
+	int CoreCount;
+	int ThreadCount;
+	int MaxMemory;
+	int DirectXSupp;
+	int OpenGLSupp;
+	
+	String Socket;
+	String MaxMemorySpeed;
+	String MemoryType;
+	String Graphics;
+	
+	double BaseGraphicsFreq;
+	double DynamicGraphicsFreq;
+	double BaseFreq;
+	double BoostFreq;
+	
+	boolean ECCSupport;
+	boolean VT;
+	
+	CPU ()
+	{
+		// super.reset()
+		reset();
+		return;
+	}
+	
+	
+	void reset()
+	{
+		CoreCount = 0;
+		ThreadCount =0;
+		MaxMemory = 0;
+		DirectXSupp = 0;
+		OpenGLSupp = 0;
+		
+		Socket = "";
+		MaxMemorySpeed = "";
+		MemoryType = "";
+		Graphics = "";
+		
+		BaseGraphicsFreq = 0.0;
+		DynamicGraphicsFreq = 0.0;
+		BaseFreq = 0.0;
+		BoostFreq = 0.0;
+		
+		ECCSupport = false;
+		VT = false;
+		
+		return;
+	}
+	
+	void setCoreCount(int count)
+	{
+		this.CoreCount = count;
+		return;
+	}
+	
+	void setThreadCount(int count)
+	{
+		this.CoreCount = count;
+		return;
+	}
+	
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,34 @@
+
+public class Nvidia {
+
+	String szDieName ;
+	String MemoryType;
+	String PowerConnectors;
+	
+	int CudaCount;
+	int TensorCount;
+	int RTCoreCount;
+	int BusWidth;
+	int PCIEGen;
+	int DirectXSupp;
+	int HDMIports;
+	int DisplayPorts;
+	int VGAPorts;
+	int DVIPorts;
+	
+	double baseClock; // Parent
+	double boostClock; // Parent
+	double DLSS;
+	double MemorySize; // Parent
+	
+	
+	
+	
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

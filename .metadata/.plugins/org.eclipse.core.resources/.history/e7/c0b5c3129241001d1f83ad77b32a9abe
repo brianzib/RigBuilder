@@ -1,0 +1,52 @@
+
+public class Nvidia {
+
+	String szDieName ; 
+	String MemoryType; // Parent
+	String PowerConnectors; // Parent
+
+	int CudaCount;
+	int TensorCount;
+	int RTCoreCount;
+	int BusWidth; // Parent
+	int PCIEGen; // Parent
+	int DirectXSupp; 
+	int HDMIports; // Parent
+	int DisplayPorts; // Parent
+	int VGAPorts; // Parent
+	int DVIPorts; // Parent
+
+	double baseClock; // Parent
+	double boostClock; // Parent
+	double DLSS;
+	double MemorySize; // Parent
+
+	void reset ()
+	{
+		szDieName = ""; 
+		MemoryType  = "";// Parent
+		PowerConnectors = ""; // Parent
+
+		CudaCount = 0;
+		TensorCount = 0;
+		RTCoreCount = 0;
+		BusWidth = 0 ;// Parent
+		PCIEGen = 0 ;// Parent
+		DirectXSupp = 0 ;
+		HDMIports = 0 ;// Parent
+		DisplayPorts = 0 ; // Parent
+		VGAPorts = 0 ;// Parent
+		DVIPorts = 0 ;// Parent
+
+		baseClock = 0; // Parent
+		boostClock = 0 ;// Parent
+		DLSS = 0 ;
+		MemorySize = 0 ; // Parent
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

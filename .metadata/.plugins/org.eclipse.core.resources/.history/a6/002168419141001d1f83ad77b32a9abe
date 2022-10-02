@@ -1,0 +1,17 @@
+
+public class Nvidia {
+
+	String szDieName ;
+	
+	int CudaCount;
+	int Tensor Count;
+	
+	
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

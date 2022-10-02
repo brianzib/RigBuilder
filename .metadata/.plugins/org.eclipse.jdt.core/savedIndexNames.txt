@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 INDEX VERSION 1.131+C:\Users\Oem\OneDrive\Documents\Brian\RigBuilder\.metadata\.plugins\org.eclipse.jdt.core
+=======
+INDEX VERSION 1.131+C:\Users\zibag\OneDrive\Documents\RigBuilder\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+>>>>>>> 92202f413848540fd68a9cba99ee1d29345ee82e
 182091660.index
 1865797976.index
 2403187570.index

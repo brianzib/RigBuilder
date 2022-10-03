@@ -2,37 +2,37 @@
 public class GPU {
 
 
-	String MemoryType; // Parent
-	String PowerConnectors; // Parent
+	String MemoryType;  
+	String PowerConnectors;  
 
 
-	int BusWidth; // Parent
-	int PCIEGen; // Parent
-	int HDMIports; // Parent
-	int DisplayPorts; // Parent
-	int VGAPorts; // Parent
-	int DVIPorts; // Parent
+	int BusWidth;  
+	int PCIEGen;  
+	int HDMIports;  
+	int DisplayPorts;  
+	int VGAPorts;  
+	int DVIPorts;  
 
-	double baseClock; // Parent
-	double boostClock; // Parent
-	double MemorySize; // Parent
+	double baseClock;  
+	double boostClock;  
+	double MemorySize;  
 	
 	void reset ()
 	{
 	
-		MemoryType  = "";// Parent
-		PowerConnectors = ""; // Parent
+		MemoryType  = ""; 
+		PowerConnectors = "";  
 
-		BusWidth = 0 ;// Parent
-		PCIEGen = 0 ;// Parent
-		HDMIports = 0 ;// Parent
-		DisplayPorts = 0 ; // Parent
-		VGAPorts = 0 ;// Parent
-		DVIPorts = 0 ;// Parent
+		BusWidth = 0 ; 
+		PCIEGen = 0 ; 
+		HDMIports = 0 ; 
+		DisplayPorts = 0 ;  
+		VGAPorts = 0 ; 
+		DVIPorts = 0 ; 
 
-		baseClock = 0; // Parent
-		boostClock = 0 ;// Parent
-		MemorySize = 0 ; // Parent
+		baseClock = 0;  
+		boostClock = 0 ; 
+		MemorySize = 0 ;  
 
 		return;
 	}

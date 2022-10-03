@@ -1,5 +1,5 @@
 
-public class CPU /* Extends class.Components */ {
+public class CPU extends Components  {
 
 	int CoreCount;
 	int ThreadCount;
@@ -173,7 +173,7 @@ public class CPU /* Extends class.Components */ {
 		return(DirectXSupp);
 	}
 
-	public int getOenGL()
+	public int getOpenGL()
 	{
 		return(OpenGLSupp);
 	}

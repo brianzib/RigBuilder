@@ -3,7 +3,7 @@ public class BuildGuide {
     {
        String szGuideSelection = "";
 
-       szGuideSelection = Functions.getInput(szGuideSeledction);
+      // szGuideSelection = Functions.getInput(szGuideSeledction);
 
 
 

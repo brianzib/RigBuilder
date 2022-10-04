@@ -7,6 +7,10 @@ public class Radeon extends GPU{
     int InfinityCache;
     int MemorySpeed;
     int MemoryBandwidth;
+	
+	// ------------------------------------------------------------------------	
+	// Contrusctors
+	// ------------------------------------------------------------------------	
 
     void reset()
     {
@@ -29,6 +33,9 @@ public class Radeon extends GPU{
         return;
     }
 
+	// ------------------------------------------------------------------------	
+	// Setters
+	// ------------------------------------------------------------------------	
 
     public void setComputeUnits(int computeUnits) 
     {
@@ -71,6 +78,10 @@ public class Radeon extends GPU{
         this.TextureUnits = textureUnits;
         return;
     }
+	
+	// ------------------------------------------------------------------------	
+	// Getters
+	// ------------------------------------------------------------------------		
 
     public int getStreamProcessors() 
     {

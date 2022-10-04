@@ -26,7 +26,7 @@ public class CPU extends Components  {
 	
 	CPU ()
 	{
-		// super.reset()
+		super.reset()
 		reset();
 		return;
 	}

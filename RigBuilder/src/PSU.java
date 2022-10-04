@@ -7,6 +7,10 @@ public class PSU extends Components{
     String Colour;
 
     double Length;
+	
+	// ------------------------------------------------------------------------	
+	// Contrusctors
+	// ------------------------------------------------------------------------		
 
     void reset()
     {
@@ -28,7 +32,9 @@ public class PSU extends Components{
         return;
     }
 
-
+	// ------------------------------------------------------------------------	
+	// Setters
+	// ------------------------------------------------------------------------
 
     public void setColour(String colour) 
     {
@@ -59,6 +65,10 @@ public class PSU extends Components{
         this.Wattage = wattage;
         return;
     }
+
+	// ------------------------------------------------------------------------	
+	// Getters
+	// ------------------------------------------------------------------------	
 
     public String getColour() 
     {

@@ -7,6 +7,10 @@ public class Storage extends Components{
     String FormFactor;
     String Interface;
 
+	// ------------------------------------------------------------------------	
+	// Contrusctors
+	// ------------------------------------------------------------------------	
+
     void reset()
     {
         Capacity = 0;
@@ -25,7 +29,9 @@ public class Storage extends Components{
         return;
     }
 
-
+	// ------------------------------------------------------------------------	
+	// Setters
+	// ------------------------------------------------------------------------	
 
     public void setCapacity(int capacity) 
     {
@@ -50,6 +56,10 @@ public class Storage extends Components{
         this.Type = type;
         return;
     }
+
+	// ------------------------------------------------------------------------	
+	// Getters
+	// ------------------------------------------------------------------------	
 
     public int getCapacity() 
     {

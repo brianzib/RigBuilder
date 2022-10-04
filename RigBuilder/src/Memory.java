@@ -12,6 +12,10 @@ public class Memory extends Components {
     String ECCRegistered;
 
 
+	// ------------------------------------------------------------------------	
+	// Contrusctors
+	// ------------------------------------------------------------------------
+
     void reset() {
         TransferRate = 0;
         CasLatency = 0 ; 
@@ -34,7 +38,10 @@ public class Memory extends Components {
         return;
     }
 
-
+	// ------------------------------------------------------------------------	
+	// Setters
+	// ------------------------------------------------------------------------
+	
     public void setCapacity(double capacity) 
     {
         this.Capacity = capacity;
@@ -82,7 +89,11 @@ public class Memory extends Components {
         this.Voltage = voltage;
         return;
     }
-
+	
+	// ------------------------------------------------------------------------	
+	// Getters
+	// ------------------------------------------------------------------------	
+	
     public double getCapacity() 
     {
         return Capacity;

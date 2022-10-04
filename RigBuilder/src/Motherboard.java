@@ -20,6 +20,10 @@ public class Motherboard extends Components{
     boolean ECCSupport;
     boolean SLISupport;
 
+	// ------------------------------------------------------------------------	
+	// Contrusctors
+	// ------------------------------------------------------------------------	
+
     void reset()
     {
         Socket = "";
@@ -48,6 +52,10 @@ public class Motherboard extends Components{
         reset();
         return;
     }
+
+	// ------------------------------------------------------------------------	
+	// Setters
+	// ------------------------------------------------------------------------	
 
     public void setChipset(String chipset) 
     {
@@ -145,6 +153,10 @@ public class Motherboard extends Components{
         this.ECCSupport = eCCSupport;
         return;
     }
+	
+	// ------------------------------------------------------------------------	
+	// Getters
+	// ------------------------------------------------------------------------	
 
     public String getChipset() 
     {

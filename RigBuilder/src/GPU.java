@@ -16,6 +16,10 @@ public class GPU extends /* */Components {
 	double boostClock;  
 	double MemorySize;  
 	
+	// ------------------------------------------------------------------------	
+	// Contrusctors
+	// ------------------------------------------------------------------------	
+	
 	void reset ()
 	{
 	
@@ -42,6 +46,10 @@ public class GPU extends /* */Components {
 		reset();
 		return;
 	}
+
+	// ------------------------------------------------------------------------	
+	// Setters
+	// ------------------------------------------------------------------------	
 
 	public void setMemoryType(String memoryType) 
 	{
@@ -108,6 +116,10 @@ public class GPU extends /* */Components {
 		this.VGAPorts = vGAPorts;
 		return;
 	}
+	
+	// ------------------------------------------------------------------------	
+	// Getters
+	// ------------------------------------------------------------------------	
 
 	public double getBaseClock() {
 		return baseClock;

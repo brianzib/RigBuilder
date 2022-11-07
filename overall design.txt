@@ -1,0 +1,96 @@
+All the algorithims that do the heavy lifting of the programme will be in the Functions class. There will be 7 modules,
+each being tied to the different classes in the programme. 
+
+<table showing the overview of all the Modules and a quick description of what they do>
+
+The most basic module will be the Menu module. It will simply 
+display the starting menu when the user starts up the programme. It will simply be a series of print statements using Javas inbuilt 
+CLI formatting to display the menu. 
+
+<table containing the Menu Modules procedures and what they do> 
+
+Next would be the module handiling input and file reading, collecting user input, checking if its valid and reading in files
+from the specified directories. There will be 2 main types of files handeled by the file reader. Comma delimited (csv) and text 
+files. The text files will contain build guides and infromation regarding building computers, while the csv files will 
+contain component specifications. 
+
+<table showing the input/filreader module and the functions within>
+
+There is a module associated with the BuildGuide, Compare and CompleteBuild classes. There are simply named Guide, Compare and Build.
+
+Build will contain all the functions required to create a 2d list of components, with the components names in the first layer
+of the list and then the components specs in the second layer of the list. This will work hand in hand with the lists module, to
+traverse and pull out data of those lists. The Build Module will also have a quick sort algorithim, helping sort out the lists of 
+components and ordering based on performance or price. 
+
+<Table containing the build module and the functions contained within>
+
+Compare will carry out the functions neccesary to compare two or more components together. It will utilise the list traversal 
+algorithims from the lists module and then simply compare the two components based on the performance per dollar ratio, which
+will be calculated in the Compare module. It will also have a function which will create a price graph for over the past 3 
+months, allowing the user to see if the current price of the component is worth paying for. 
+
+<Table containing the Compare module and the functions contained within>
+
+The guide module will simply display the guides to the user, after using the input/filereader module to read in the selected 
+guide.
+
+<Table containing the Guide module and what the functions do>
+
+Component creator will be responsible for creating and calling the object functions (of the parent Components and it's children classes).
+Using the filereader/input module to read in the component specs, display them to the user in a formatted manner, and the using 
+the lists module to create a list containing the specs. It will also create a csv file, containing the Component names and there corresponding prices.
+
+<Table containing the ComponentCreator module and a description of all the Functions>
+
+Price collection will be handle the API and functions responsible for searching eBay and Amazon for the corresponding computer parts that the user has searched, the price will
+be updated everytime the user opens the programme (of the components already in the directory), and will collected and stored in the csv file format 
+(file name = component name, time as the attribute and the price as the data for the attribute). These will then be displayed by the Compare and Build modules as price graphs for the last six months.
+
+<Table containing the PriceCollection module and the description of its functions>
+
+The final module will be the module responsible for all of the list functions and algorithims, the main functions of the list module will be to create a list (both 1d and 2d), traverse a list and take data out of it,
+there will be some optimisation employed to ensure that 2d lists are traversed through quickly. More on this will be given in the algorithims section.
+
+<Table containing the lists Module and the description of its functions>
+
+Other than the Functions class which is essentially the heart of the programme, there are 5 other main classes, Menu, CreateBuild, Compare, Components, and BuildGuide. The are also some children classes of the Components class, with some of
+those classes also having children, but they are simple object classes with set and get functions as well as some display functions for testing. 
+
+The Menu class will simply be responsible for displaying the Menu as the user starts the programme, and also sending a flag to the Functions class for the PriceCollection module to update the prices upon start-up.
+
+<Table containing the Menu classes procedures>
+
+The CreateBuild class will call all of the functions that are responsible for creating a new file for the build, as well as the objects and lists to store the attributes and data associated with those attributes.
+None of the functions will acctually be stored in the class itself, they will be housed in the Functions class under there appropriate Module, and the CreateBuild class will simnply call those functions when required. 
+
+<Table containing CreateBuild and its private functions>
+
+The compare class will do as it states, allow the user to compare two or more different components and create price, price to preformance ratio, and performance graphs to display to the user, there will also be an option to immediately 
+add a component to a new or existing build list. 
+
+<Table containing the Compare class and its private functions>
+
+Components is a parent class housing the parent attributes for all components, just a simple object which is essentially a template for all the other components
+
+<Table containing the Componentsclass and it's private functions>
+
+BuildGuide will simply display a user selected guide to help out with them picking components or information for putting components together, no heavy lifting functions will be stored in this class as it will
+utilize the FileReader/input class. 
+
+<Table containing the BuildGuide class and it's private functions>
+
+There are also the children classes of the Components class, which contain component specific attributes, with no added function except ffro settin g and gettuing the stored values. 
+
+<Table containing each of the components children classes and there attributes>
+
+
+
+
+
+ 
+
+
+
+
+ 
